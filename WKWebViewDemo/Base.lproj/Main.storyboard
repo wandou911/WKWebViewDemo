@@ -42,6 +42,14 @@
                                     <segue destination="D8D-xQ-R2G" kind="show" id="KE2-gU-OxC"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBY-ty-xNw">
+                                <rect key="frame" x="133" y="370" width="93" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="JSBridge交互"/>
+                                <connections>
+                                    <segue destination="r3A-nL-ygP" kind="show" id="OKA-fd-fIY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -52,10 +60,10 @@
             </objects>
             <point key="canvasLocation" x="-524" y="29"/>
         </scene>
-        <!--Demo-->
+        <!--Native-->
         <scene sceneID="2E7-QV-iXS">
             <objects>
-                <viewController title="Demo" id="D8D-xQ-R2G" customClass="NativeJSViewController" sceneMemberID="viewController">
+                <viewController title="Native" id="D8D-xQ-R2G" customClass="NativeJSViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2nh-pB-OWO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -66,6 +74,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ooG-nP-Sbz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="189.59999999999999" y="27.436281859070466"/>
+        </scene>
+        <!--JSBridge-->
+        <scene sceneID="2sK-zp-OwB">
+            <objects>
+                <viewController title="JSBridge" id="r3A-nL-ygP" customClass="JSBridgeViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="286-nA-oHb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="yEo-mj-ypi"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ihw-mZ-rgm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-162" y="686"/>
         </scene>
     </scenes>
 </document>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04211639B9BC6E44E9CF46B6 /* libPods-WKWebViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3F49E2FF945414AAA93C76E /* libPods-WKWebViewDemo.a */; };
 		6BD6B3B420EDC73800196AB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD6B3B320EDC73800196AB5 /* AppDelegate.m */; };
 		6BD6B3B720EDC73800196AB5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD6B3B620EDC73800196AB5 /* ViewController.m */; };
 		6BD6B3BA20EDC73800196AB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BD6B3B820EDC73800196AB5 /* Main.storyboard */; };
@@ -18,6 +19,10 @@
 		6BD6B3E620EDF9E700196AB5 /* Native.js in Resources */ = {isa = PBXBuildFile; fileRef = 6BD6B3E420EDF9E700196AB5 /* Native.js */; };
 		6BD6B3E720EDF9E700196AB5 /* Native.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BD6B3E520EDF9E700196AB5 /* Native.html */; };
 		6BD6B3EA20EE018600196AB5 /* NativeJSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD6B3E920EE018600196AB5 /* NativeJSViewController.m */; };
+		6BD6B3ED20EF0E1200196AB5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 6BD6B3EC20EF0E1100196AB5 /* Podfile */; };
+		6BD6B3F120EF107F00196AB5 /* JSBridgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD6B3F020EF107F00196AB5 /* JSBridgeViewController.m */; };
+		6BD6B3F420EF183E00196AB5 /* JSBridge.js in Resources */ = {isa = PBXBuildFile; fileRef = 6BD6B3F220EF183E00196AB5 /* JSBridge.js */; };
+		6BD6B3F520EF183E00196AB5 /* JSBridge.html in Resources */ = {isa = PBXBuildFile; fileRef = 6BD6B3F320EF183E00196AB5 /* JSBridge.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		055BFA21BD194671A5DCDB2E /* Pods-WKWebViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKWebViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WKWebViewDemo/Pods-WKWebViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		6BD6B3AF20EDC73800196AB5 /* WKWebViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BD6B3B220EDC73800196AB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6BD6B3B320EDC73800196AB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +64,13 @@
 		6BD6B3E520EDF9E700196AB5 /* Native.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Native.html; sourceTree = "<group>"; };
 		6BD6B3E820EE018600196AB5 /* NativeJSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeJSViewController.h; sourceTree = "<group>"; };
 		6BD6B3E920EE018600196AB5 /* NativeJSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeJSViewController.m; sourceTree = "<group>"; };
+		6BD6B3EC20EF0E1100196AB5 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6BD6B3EF20EF107F00196AB5 /* JSBridgeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSBridgeViewController.h; sourceTree = "<group>"; };
+		6BD6B3F020EF107F00196AB5 /* JSBridgeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSBridgeViewController.m; sourceTree = "<group>"; };
+		6BD6B3F220EF183E00196AB5 /* JSBridge.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = JSBridge.js; sourceTree = "<group>"; };
+		6BD6B3F320EF183E00196AB5 /* JSBridge.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JSBridge.html; sourceTree = "<group>"; };
+		9F3DEA6FC277F7C0A07B338E /* Pods-WKWebViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WKWebViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WKWebViewDemo/Pods-WKWebViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C3F49E2FF945414AAA93C76E /* libPods-WKWebViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WKWebViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04211639B9BC6E44E9CF46B6 /* libPods-WKWebViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +106,8 @@
 				6BD6B3CA20EDC73800196AB5 /* WKWebViewDemoTests */,
 				6BD6B3D520EDC73800196AB5 /* WKWebViewDemoUITests */,
 				6BD6B3B020EDC73800196AB5 /* Products */,
+				74EEF70F7C9F46D79E5E30B2 /* Pods */,
+				F39A80826B4562851855346E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,16 +124,18 @@
 		6BD6B3B120EDC73800196AB5 /* WKWebViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6BD6B3EB20EF0A2700196AB5 /* Native */,
+				6BD6B3EE20EF104C00196AB5 /* JSBridge */,
 				6BD6B3B220EDC73800196AB5 /* AppDelegate.h */,
 				6BD6B3B320EDC73800196AB5 /* AppDelegate.m */,
 				6BD6B3B520EDC73800196AB5 /* ViewController.h */,
 				6BD6B3B620EDC73800196AB5 /* ViewController.m */,
-				6BD6B3EB20EF0A2700196AB5 /* New Group */,
 				6BD6B3B820EDC73800196AB5 /* Main.storyboard */,
 				6BD6B3BB20EDC73800196AB5 /* Assets.xcassets */,
 				6BD6B3BD20EDC73800196AB5 /* LaunchScreen.storyboard */,
 				6BD6B3C020EDC73800196AB5 /* Info.plist */,
 				6BD6B3C120EDC73800196AB5 /* main.m */,
+				6BD6B3EC20EF0E1100196AB5 /* Podfile */,
 			);
 			path = WKWebViewDemo;
 			sourceTree = "<group>";
@@ -140,7 +158,7 @@
 			path = WKWebViewDemoUITests;
 			sourceTree = "<group>";
 		};
-		6BD6B3EB20EF0A2700196AB5 /* New Group */ = {
+		6BD6B3EB20EF0A2700196AB5 /* Native */ = {
 			isa = PBXGroup;
 			children = (
 				6BD6B3E820EE018600196AB5 /* NativeJSViewController.h */,
@@ -148,7 +166,35 @@
 				6BD6B3E520EDF9E700196AB5 /* Native.html */,
 				6BD6B3E420EDF9E700196AB5 /* Native.js */,
 			);
-			name = "New Group";
+			name = Native;
+			sourceTree = "<group>";
+		};
+		6BD6B3EE20EF104C00196AB5 /* JSBridge */ = {
+			isa = PBXGroup;
+			children = (
+				6BD6B3EF20EF107F00196AB5 /* JSBridgeViewController.h */,
+				6BD6B3F020EF107F00196AB5 /* JSBridgeViewController.m */,
+				6BD6B3F320EF183E00196AB5 /* JSBridge.html */,
+				6BD6B3F220EF183E00196AB5 /* JSBridge.js */,
+			);
+			path = JSBridge;
+			sourceTree = "<group>";
+		};
+		74EEF70F7C9F46D79E5E30B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				055BFA21BD194671A5DCDB2E /* Pods-WKWebViewDemo.debug.xcconfig */,
+				9F3DEA6FC277F7C0A07B338E /* Pods-WKWebViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F39A80826B4562851855346E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3F49E2FF945414AAA93C76E /* libPods-WKWebViewDemo.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BD6B3DB20EDC73800196AB5 /* Build configuration list for PBXNativeTarget "WKWebViewDemo" */;
 			buildPhases = (
+				5316E8D789834702A7856CE4 /* [CP] Check Pods Manifest.lock */,
 				6BD6B3AB20EDC73800196AB5 /* Sources */,
 				6BD6B3AC20EDC73800196AB5 /* Frameworks */,
 				6BD6B3AD20EDC73800196AB5 /* Resources */,
@@ -257,10 +304,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD6B3ED20EF0E1200196AB5 /* Podfile in Resources */,
 				6BD6B3BF20EDC73800196AB5 /* LaunchScreen.storyboard in Resources */,
+				6BD6B3F520EF183E00196AB5 /* JSBridge.html in Resources */,
 				6BD6B3BC20EDC73800196AB5 /* Assets.xcassets in Resources */,
 				6BD6B3BA20EDC73800196AB5 /* Main.storyboard in Resources */,
 				6BD6B3E720EDF9E700196AB5 /* Native.html in Resources */,
+				6BD6B3F420EF183E00196AB5 /* JSBridge.js in Resources */,
 				6BD6B3E620EDF9E700196AB5 /* Native.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,12 +331,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5316E8D789834702A7856CE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WKWebViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6BD6B3AB20EDC73800196AB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6BD6B3B720EDC73800196AB5 /* ViewController.m in Sources */,
+				6BD6B3F120EF107F00196AB5 /* JSBridgeViewController.m in Sources */,
 				6BD6B3C220EDC73800196AB5 /* main.m in Sources */,
 				6BD6B3EA20EE018600196AB5 /* NativeJSViewController.m in Sources */,
 				6BD6B3B420EDC73800196AB5 /* AppDelegate.m in Sources */,
@@ -450,6 +522,7 @@
 		};
 		6BD6B3DC20EDC73800196AB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 055BFA21BD194671A5DCDB2E /* Pods-WKWebViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +537,7 @@
 		};
 		6BD6B3DD20EDC73800196AB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F3DEA6FC277F7C0A07B338E /* Pods-WKWebViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
