@@ -112,10 +112,7 @@
 				6BD6B3B320EDC73800196AB5 /* AppDelegate.m */,
 				6BD6B3B520EDC73800196AB5 /* ViewController.h */,
 				6BD6B3B620EDC73800196AB5 /* ViewController.m */,
-				6BD6B3E820EE018600196AB5 /* NativeJSViewController.h */,
-				6BD6B3E920EE018600196AB5 /* NativeJSViewController.m */,
-				6BD6B3E520EDF9E700196AB5 /* Native.html */,
-				6BD6B3E420EDF9E700196AB5 /* Native.js */,
+				6BD6B3EB20EF0A2700196AB5 /* New Group */,
 				6BD6B3B820EDC73800196AB5 /* Main.storyboard */,
 				6BD6B3BB20EDC73800196AB5 /* Assets.xcassets */,
 				6BD6B3BD20EDC73800196AB5 /* LaunchScreen.storyboard */,
@@ -141,6 +138,17 @@
 				6BD6B3D820EDC73800196AB5 /* Info.plist */,
 			);
 			path = WKWebViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		6BD6B3EB20EF0A2700196AB5 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				6BD6B3E820EE018600196AB5 /* NativeJSViewController.h */,
+				6BD6B3E920EE018600196AB5 /* NativeJSViewController.m */,
+				6BD6B3E520EDF9E700196AB5 /* Native.html */,
+				6BD6B3E420EDF9E700196AB5 /* Native.js */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
